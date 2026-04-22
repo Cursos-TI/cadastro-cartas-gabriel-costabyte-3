@@ -21,7 +21,7 @@ int main() {
     int Comparacao1, Comparacao2, Comparacao3, Comparacao4, Comparacao5, Comparacao6, Comparacao7;
 
   // Área para entrada de dados
-    printf("*BEM-VINDO AO SISTEMA DE CADASTRO DE CARTAS SUPER-TRUNFO*\n\n");
+    printf("====BEM-VINDO AO SISTEMA DE CADASTRO DE CARTAS SUPER-TRUNFO====\n\n");
 
     printf("Cadastro da carta 1:\n");
     printf("Informe a letra do estado (A a H): ");
@@ -74,15 +74,45 @@ int main() {
     Comparacao7 = (SuperPoder1 > SuperPoder2);
 
   // Área para exibição dos dados da cidade
-    printf("\nCarta 1:\nEstado: %c\nCidade: %s\nCódigo da carta: %s\nPopulação: %lu\nÁrea (em km²): %.2f\n", Estado1, Cidade1, CodigoDaCarta1, Populacao1, Area1);
-    printf("PIB: %.2f\nPontos turísticos: %d\nDensidade populacional: %.2f\nPIB per capita: %.2f\nSuper Poder: %.2f\n\n", PIB1, PontosTuristicos1, Densidade1, PIBpercap1, SuperPoder1);
 
-    printf("Carta 2:\nEstado: %c\nCidade: %s\nCódigo da carta: %s\nPopulação: %lu\nÁrea (em km²): %.2f\n", Estado2, Cidade2, CodigoDaCarta2, Populacao2, Area2);
-    printf("PIB: %.2f\nPontos turísticos: %d\nDensidade populacional: %.2f\nPIB per capita: %.2f\nSuper Poder: %.2f\n\n", PIB2, PontosTuristicos2, Densidade2, PIBpercap2, SuperPoder2);
+printf("\nCarta 1:\n");
 
-    printf("Comparação de Cartas:\n");
-    printf("1 indica vitória da Carta 1; 0 indica vitória da Carta 2.\n\n");
-    printf("População: %d\nÁrea: %d\nPIB: %d\nPontos Turísticos: %d\nDensidade Populacional: %d\nPIB per capita: %d\nSuper Poder: %d\n\n", Comparacao1, Comparacao2, Comparacao3, Comparacao4, Comparacao5, Comparacao6, Comparacao7);
+printf("Estado: %c\n", Estado1);
+printf("Cidade: %s\n", Cidade1);
+printf("Código da carta: %s\n", CodigoDaCarta1);
+printf("População: %lu\n", Populacao1);
+printf("Área (em km²): %.2f\n", Area1);
+printf("PIB: %.2f\n", PIB1);
+printf("Pontos turísticos: %d\n", PontosTuristicos1);
+printf("Densidade populacional: %.2f\n", Densidade1);
+printf("PIB per capita: %.2f\n", PIBpercap1);
+printf("Super Poder: %.2f\n\n", SuperPoder1);
 
+
+printf("Carta 2:\n");
+
+printf("Estado: %c\n", Estado2);
+printf("Cidade: %s\n", Cidade2);
+printf("Código da carta: %s\n", CodigoDaCarta2);
+printf("População: %lu\n", Populacao2);
+printf("Área (em km²): %.2f\n", Area2);
+
+printf("PIB: %.2f\n", PIB2);
+printf("Pontos turísticos: %d\n", PontosTuristicos2);
+printf("Densidade populacional: %.2f\n", Densidade2);
+printf("PIB per capita: %.2f\n", PIBpercap2);
+printf("Super Poder: %.2f\n\n", SuperPoder2);
+
+
+printf("Comparação de Cartas:\n");
+printf("1 indica vitória da Carta 1; 0 indica vitória da Carta 2.\n\n");
+
+printf("População: %d\n", Comparacao1);
+printf("Área: %d\n", Comparacao2);
+printf("PIB: %d\n", Comparacao3);
+printf("Pontos Turísticos: %d\n", Comparacao4);
+printf("Densidade Populacional: %d\n", Comparacao5);
+printf("PIB per capita: %d\n", Comparacao6);
+printf("Super Poder: %d\n\n", Comparacao7);
 return 0;
 } 
